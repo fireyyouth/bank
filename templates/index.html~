@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+	<style>
+		input {
+			display:"block"
+		}
+	</style>
+</head>
+<body>
+	<p>
+		{{user['name']}}:{{user['money']}}
+	</p>
+	<form>
+		<p>make a transfer</p>
+		<p>to:</p>
+		<input type="text" name="to">
+		<p>amount:</p>
+		<input type="text" name="amount">
+		<input type="submit" value="transfer">
+	</form>
+</body>
+</html>
